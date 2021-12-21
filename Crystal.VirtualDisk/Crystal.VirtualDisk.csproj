@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PInvoke\Security\Crystal.PInvoke.Security.csproj" />
+    <ProjectReference Include="..\PInvoke\VirtDisk\Crystal.PInvoke.VirtDisk.csproj" />
+  </ItemGroup>
+
+</Project>

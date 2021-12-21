@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Crystal.PInvoke.Core\Crystal.PInvoke.Core.csproj" />
+    <ProjectReference Include="..\Gdi32\Crystal.PInvoke.Gdi32.csproj" />
+    <ProjectReference Include="..\Kernel32\Crystal.PInvoke.Kernel32.csproj" />
+    <ProjectReference Include="..\Sharerd\Crystal.PInvoke.Shared.csproj" />
+    <ProjectReference Include="..\User32\Crystal.PInvoke.User32.csproj" />
+  </ItemGroup>
+
+</Project>

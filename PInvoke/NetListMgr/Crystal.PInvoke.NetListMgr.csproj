@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Crystal.PInvoke.Core\Crystal.PInvoke.Core.csproj" />
+    <ProjectReference Include="..\..\PInvoke\Ole\Crystal.PInvoke.Ole.csproj" />
+    <ProjectReference Include="..\..\PInvoke\Sharerd\Crystal.PInvoke.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
