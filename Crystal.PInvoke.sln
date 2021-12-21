@@ -163,9 +163,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.PInvoke.SHCore", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.PInvoke.UrlMon", "PInvoke\UrlMon\Crystal.PInvoke.UrlMon.csproj", "{BCED878D-F2A4-41F5-927D-3F9E9811553D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal.SystemServices", "Crystal.SystemServices\Crystal.SystemServices.csproj", "{AEDC0A0E-AB3C-410F-861C-513B8C6B4A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.SystemServices", "Crystal.SystemServices\Crystal.SystemServices.csproj", "{AEDC0A0E-AB3C-410F-861C-513B8C6B4A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal.VirtualDisk", "Crystal.VirtualDisk\Crystal.VirtualDisk.csproj", "{C1B275E0-5167-4DA9-82CC-D08D22C514D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.VirtualDisk", "Crystal.VirtualDisk\Crystal.VirtualDisk.csproj", "{C1B275E0-5167-4DA9-82CC-D08D22C514D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
